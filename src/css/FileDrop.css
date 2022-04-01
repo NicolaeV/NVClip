@@ -1,0 +1,11 @@
+.drag-drop-zone{
+    height: 100vh;
+    position: relative;
+}
+
+.drag-drop-zone.inside-drag-area {
+    height: 100vh;
+    position: relative;
+    -webkit-filter: url(#svg-blur);
+    filter: url(#svg-blur);
+}
