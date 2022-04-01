@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To run the project, after running npm install, go to "node_modules\react-scripts\config\webpackDevServer.config.js" and add:
+```
+headers: {
+      "Cross-Origin-Embedder-Policy": "require-corp",
+      "Cross-Origin-Opener-Policy": "same-origin",
+    },
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
